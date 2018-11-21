@@ -55,7 +55,7 @@ def example_6_12():
         "
             Evaluate the value of int_1.5^3 f(x)dx ('the integral of f(x)
             between 1.5 and 3'), where f(x) is represented by the 
-            evenly spaced data points defined in x_data and y_data.
+            unevenly spaced data points defined in x_data and y_data.
         "
     Task: This function must return the value of int_1.5^3 f(x)dx where 
           f(x) is represented by the evenly spaced data points in x_data and 
