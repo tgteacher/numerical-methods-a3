@@ -5,4 +5,4 @@ from numpy import allclose
 
 def test_problem_7_1_11():
     assert(check_linalg())
-    assert(problem_7_1_11(2)-2.15<0.1)
+    assert(abs(problem_7_1_11(2)-2.15)<0.1)

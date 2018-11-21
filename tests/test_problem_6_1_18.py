@@ -5,4 +5,4 @@ from numpy import allclose
 
 def test_problem_6_1_18():
     assert(check_linalg())
-    assert(problem_6_1_18(1.0)-0.94608<10E-5)
+    assert(abs(problem_6_1_18(1.0)-0.94608)<10E-5)
